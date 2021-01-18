@@ -1,5 +1,5 @@
 # Bingo-Solution
-## Solve Bingo Blitz through computer vision.
+## Solve Bingo Blitz with Computer Vision
 
 
 I implemented pytesseract Optical Character Recognition (OCR) that decoded the Bingo board and prompt using Natural Langauge Processing (NLP). I chose Bingo Blitz because the board and gameplay are vexatiously noisy. I utilized Hue, Saturation, & Value (HSV) masking to segment the numbers. Following masking, the standard median blurs, thresholding, dilation, and morphology preprocessed the board for computer vision. The application is built for Window applications utilizing the win32api to move & click with the mouse.
